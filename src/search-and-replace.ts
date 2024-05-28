@@ -170,7 +170,7 @@ class SearchAndReplace {
       prefix = "'<,'>s/";
     }
     if (value) {
-      prefix += escapeStringRegex(value) + "/";
+      prefix += value + "/";
     }
     return prefix;
   }
